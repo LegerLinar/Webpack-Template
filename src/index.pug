@@ -1,0 +1,16 @@
+
+extends ./pug/base
+
+include ./pug/mixin
+
+
+block content
+  include ./pug/header
+  .block.
+    Здесь будет написан некоторый текст,      на самом деле совершенно не важный какой
+    именно.
+  +div(icon)
+  h1 Any text without problems
+    p Anything you ever want you could change
+  .card
+    h3.card__title I want to tell you a little story

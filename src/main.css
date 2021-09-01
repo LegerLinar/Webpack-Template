@@ -1,0 +1,19 @@
+p {
+  background-color: chocolate; }
+
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: chartreuse; }
+  .card__title {
+    color: red; }
+
+h1 {
+  color: aqua;
+  background-color: bisque;
+  font-family: "Arial", sans-serif; }
+
+body {
+  background-color: #000; }
+
+/*# sourceMappingURL=main.css.map */
